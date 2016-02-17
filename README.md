@@ -2,6 +2,20 @@
 
 An npm module with helpers for using prismic.io javascript API with javascript-based static-site generators.
 
+### Install
+`npm install prismic-static`
+
+### Usage
+```javascript
+var PrismicStatic = require( 'prismic-static' );
+
+var myPrismic = new PrismicStatic( '<YOUR_API_KEY_HERE>' );
+
+var collections = myPrismic.getAllDocuments( function( docs ) {
+    ...
+});
+```
+
 ## Helpers
 ### getAllDocuments( callback )
 Fetches all document from a repository given the API key
