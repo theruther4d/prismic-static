@@ -11,16 +11,12 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mbanting/metalsmith-prismic.git"
+    "url": "https://github.com/theruther4d/prismic-static"
   },
   "scripts": {},
   "version": "0.0.1",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "bugs": {
-    "url": "https://github.com/mbanting/metalsmith-prismic/issues"
-  },
-  "homepage": "https://github.com/mbanting/metalsmith-prismic#readme",
   "author": "Josh Rutherford"
 }
