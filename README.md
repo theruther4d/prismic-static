@@ -6,10 +6,10 @@ An npm module with helpers for using prismic.io javascript API with javascript-b
 ### getAllDocuments( callback )
 Fetches all document from a repository given the API key
 
-** Arguments **
+**Arguments**
 * callback (function) - the callback function to be executed when the fetch has been completed.
 
-** Returns **
+**Returns**
 * ( object ) - with keys `collections` and `tags`. Each of the values is itself an object containing keys for each respective `collection` and `tag` type. The value of each of these keys is an array of prismic documents. Ex:
 ```javascript
     {
@@ -29,11 +29,11 @@ Fetches all document from a repository given the API key
 ### getDocumentsByType( type, callback )
 Fetches all documents of a specified type from the repository.
 
-** Arguments **
+**Arguments**
 * type ( string ) - the custom-type name that you'd like to fetch.
 * callback ( function ) - the callback function to be executed when the fetch has been completed.
 
-** Returns **
+**Returns**
 * ( object ) - with keys for document type and corresponding values as an array of prismic documents. Ex:
 ```javascript
     {
@@ -46,11 +46,11 @@ Fetches all documents of a specified type from the repository.
 ### getTaggedDocuments( type, callback )
 Fetches all tagged documents for a specified type and sorts by tag name.
 
-** Arguments **
+**Arguments**
 * type ( string ) - the custom-type name that you'd like to fetch.
 * callback ( function ) - the callback function to be executed when the fetch has been completed.
 
-** Returns **
+**Returns**
 * ( object ) - with keys for each tag name and corresponding values as an array of prismic documents. Ex:
 ```javascript
     {

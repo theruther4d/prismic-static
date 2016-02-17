@@ -9,11 +9,18 @@
   "main": "lib/index.js",
   "name": "prismic-static",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mbanting/metalsmith-prismic.git"
   },
   "scripts": {},
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/mbanting/metalsmith-prismic/issues"
+  },
+  "homepage": "https://github.com/mbanting/metalsmith-prismic#readme",
+  "author": "Josh Rutherford"
 }
