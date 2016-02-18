@@ -14,7 +14,7 @@
     "url": "https://github.com/theruther4d/prismic-static"
   },
   "scripts": {},
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
